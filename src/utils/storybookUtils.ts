@@ -1,3 +1,9 @@
+type ControlType = {
+	control: {
+		type: 'inline-radio' | 'boolean' | 'text';
+	};
+};
+
 export const toEnum = <T>(options: T[]) => ({
 	control: {
 		type: 'inline-radio',

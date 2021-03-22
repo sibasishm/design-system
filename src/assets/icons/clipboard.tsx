@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Clipboard = () => (
+export const Clipboard = (): JSX.Element => (
 	<svg
 		className='w-5 h-5'
 		fill='none'
