@@ -4,7 +4,7 @@ import React, {
 	ReactNode,
 } from 'react';
 
-import { variants, sizes, colors, generateClassName } from './variations';
+import { variants, sizes, colors, generateClassName } from './constants';
 
 export type ButtonProps = DetailedHTMLProps<
 	ButtonHTMLAttributes<HTMLButtonElement>,

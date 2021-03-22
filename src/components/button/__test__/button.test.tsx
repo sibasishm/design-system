@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 
-import { Button } from './button';
+import { Button } from '../button';
 
 describe('Button', () => {
 	it('should render the default button component', () => {
